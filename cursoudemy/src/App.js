@@ -3,6 +3,8 @@ import PrimerComponente from './Components/PrimerComponente';
 import Propiedades from './Components/Propiedades';
 import Estados from './Components/Estados';
 import EstilosTradicionales from './Components/EstilosTradicionales';
+import EstilosLinea from './Components/EstilosLinea';
+
 
 function App() {
     const socios = "JPR - MPB - AC";
@@ -15,6 +17,7 @@ function App() {
             />
             <Estados />
             <EstilosTradicionales />
+            <EstilosLinea/>
             
         </>
     );
