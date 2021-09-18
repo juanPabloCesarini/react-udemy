@@ -4,7 +4,7 @@ import Propiedades from './Components/Propiedades';
 import Estados from './Components/Estados';
 import EstilosTradicionales from './Components/EstilosTradicionales';
 import EstilosLinea from './Components/EstilosLinea';
-
+import EstilosEnModulos from './Components/EstilosEnModulos';
 
 function App() {
     const socios = "JPR - MPB - AC";
@@ -17,7 +17,8 @@ function App() {
             />
             <Estados />
             <EstilosTradicionales />
-            <EstilosLinea/>
+            <EstilosLinea />
+            <EstilosEnModulos/>
             
         </>
     );
